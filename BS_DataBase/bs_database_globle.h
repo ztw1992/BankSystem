@@ -1,0 +1,4 @@
+#ifndef BS_DATABASE_GLOBLE_H
+#define BS_DATABASE_GLOBLE_H
+
+#endif // BS_DATABASE_GLOBLE_H

@@ -1,0 +1,12 @@
+#ifndef BS_DATABASE_GLOBLE_H
+#define BS_DATABASE_GLOBLE_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(RX_BUSINESSVIEW_LIBRARY)
+#  define BS_DATABASE_GLOBLE_EXPORT Q_DECL_EXPORT
+#else
+#  define BS_DATABASE_GLOBLE_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // BS_DATABASE_GLOBLE_H
